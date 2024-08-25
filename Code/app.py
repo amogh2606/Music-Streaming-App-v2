@@ -1,9 +1,9 @@
 #----------------------------------------------------------------------#
 #---- MODERN APPLICATION DEVELOPMENT - II PROJECT ----#
 
-#------------------AMOGH ANSHU N ----------------------#
+#----------------------------------------------------------------------#
 
-#------------------22F1001411---------------------------#
+#--------------------------22F1001411----------------------------------#
 
 #----------------------------------------------------------------------#
 
@@ -51,8 +51,8 @@ def create_app():
     app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
     app.config['MAIL_PORT'] = 587
     app.config['MAIL_USE_TLS'] = True
-    app.config['MAIL_USERNAME'] = 'rangoo2003@gmail.com'
-    app.config['MAIL_PASSWORD'] = 'kgyz vjwl sdqw stio'
+    app.config['MAIL_USERNAME'] = 'xxxx@gmail.com' #replace the contents inside '' with your email id
+    app.config['MAIL_PASSWORD'] = 'xxxx xxxx xxxx xxxx' #replace the contents inside '' with your mail password
     app.config['SECURITY_TRACKABLE'] = True
     app.config['SECURITY_LOGOUT_URL'] = '/logout_user'
     app.config['CACHE_TYPE'] = 'simple'
